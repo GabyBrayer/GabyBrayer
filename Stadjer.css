@@ -1,0 +1,74 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #48BBDB, #0041C2);
+	background-attachment: fixed;;
+}
+
+header {
+	background-image: url('Header_Background.png');
+	background-size: cover;
+	color: #0041C2
+}
+
+article {
+	text-align: center;
+	color: #0041C2
+}
+
+footer {
+	background-image: url('Footer_Background.png');
+	background-size: cover;
+	text-align: center;
+	color: #48BBDB
+}
+
+nav a {
+	color: #90E0EF
+	text-align: center;
+	margin: 0 10px;
+}
+
+nav {
+	background-color: rgba(0, 9, 145, 0.4);
+	padding: 10px;
+}
+
+a:link {
+    color: #90E0EF
+}
+
+a:visited {
+    color: #90E0EF
+}
+
+a:hover {
+    color: #90E0EF
+}
+
+a:active {
+    color: #90E0EF
+}
+
+article {
+	background-image: url('Logo_Transparent.png');
+	background-size: 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+	height: calc(60vh - 90px);
+}
+
+.container {
+    overflow-y: auto; /* or overflow: auto; */
+}
+
+.extra-layer {
+	background-color: #000991;
+	padding: 20px;
+	color: #90E0EF;
+	text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
